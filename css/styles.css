@@ -32,7 +32,7 @@ li a:hover:not(.active) {
 }
 
 body{
-  background: #F2DDC1;
+  background: #EED6C4;
 }
 .header {
   padding: 0px;
@@ -44,9 +44,44 @@ body{
 img{
   object-fit: cover;
   height: 500px;
-  width: 1910px;
+  width: 1850px;
+
+}
+
+img.logo{
+  height: 1000px;
+  width: auto;
+  bottom: 150px;
 }
 
 p{
   text-align: center;
+}
+
+.content1{
+    width: 450px;
+    padding: 5px 15px;
+    float: left;
+}
+.content2{
+    margin: 0 0 0 950px;
+    padding: 15px;
+    border-left: 3px solid;
+    border-color:#483434;
+
+}
+
+#wrapper{
+  width: 1850px;
+  background: #F2DDC1;
+  text-align: left;
+  margin: auto;
+
+      }
+
+footer{
+  background-color: #6B4F4F;
+}
+p.footer{
+  color: white;
 }
