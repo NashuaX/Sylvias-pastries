@@ -1,13 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Sylvia's Bakery</title>
+	<title>Sylvia's Pastries</title>
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
+    <style>
+      img.index{
+        height: 600px;
+        width: 700px;
+        border:  10px solid black;
+        border-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='75' height='75'%3E%3Cg fill='none' stroke='%23B88846' stroke-width='2'%3E%3Cpath d='M1 1h73v73H1z'/%3E%3Cpath d='M8 8h59v59H8z'/%3E%3Cpath d='M8 8h16v16H8zM51 8h16v16H51zM51 51h16v16H51zM8 51h16v16H8z'/%3E%3C/g%3E%3Cg fill='%23B88846'%3E%3Ccircle cx='16' cy='16' r='2'/%3E%3Ccircle cx='59' cy='16' r='2'/%3E%3Ccircle cx='59' cy='59' r='2'/%3E%3Ccircle cx='16' cy='59' r='2'/%3E%3C/g%3E%3C/svg%3E") 25;
+         }
+         p.season{
+          float:left;
+          padding-right: 450px;
+          padding-left: 150px;
+          text-align: justify;
+         }
+         h1.season{
+          text-align:left;
+          font-family: Arial, Helvetica, sans-serif;
+          text-shadow: 1px 1px 1px #333;
+          color:#F9F6EE;
+          padding-left: 250px;
+          padding-top:80px;
+        }
+        p.fresh{
+          margin-top: 200px;
+          float: right;
+
+        }
+  </style>
 </head>
 
 <body>
 <ul class="nav">
-  <li></li>
   <li class="nav"><a class="active" href="index.html">Home</a></li>
   <li class="nav"><a href="pastries.html">Pastries</a></li>
   <li class="nav"><a href="about.html">About</a></li>
@@ -16,28 +42,29 @@
 </ul>
 <div id="wrapper">
   <div class="header">
-    <img src="images/headertest.jpg" alt="pastry header">
+    <img class="logo" src="images/headertest.jpg" alt="pastry header">
   </div>
 
 
-<h1 style=" text-align: center;">Welcome!</h1>
-<p>We have an assortment of tasty home baked pastries that have been known to please!</p>
+<h1 style=" text-align: center; text-shadow: 1px 1px 1px #333; color: white; font-family: Arial, Helvetica, sans-serif;">Welcome</h1>
+<p>We have an assortment of tasty home baked pastries that have been known to please!</p></li>
 <br>
-<div class="content1">
-    <h2 style="text-align:center; font-family: georgia, serif;"> Experiences/Skills </h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nisl purus, consequat et eros ut, venenatis vulputate erat. Aenean pulvinar semper tortor, vel malesuada eros hendrerit in. Mauris auctor, lacus quis lacinia aliquet, urna quam vestibulum neque, at faucibus tortor augue venenatis lacus. Ut viverra lorem a accumsan ornare. Duis nibh lorem, scelerisque non elementum elementum, lacinia egestas lacus. Curabitur fringilla felis sit amet erat posuere, vehicula egestas est tincidunt. Nunc ut sapien vitae augue venenatis auctor vel non ipsum. Nunc sollicitudin est erat, vitae lacinia nibh scelerisque non. Cras iaculis diam in lacus volutpat, eget tincidunt eros congue. </p>
-  </div>
-  <div class="content2">
-  <h2 style="font-family: georgia, serif; text-align: center;">About Me</h2>
-  <p class="right">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nisl purus, consequat et eros ut, venenatis vulputate erat. Aenean pulvinar semper tortor, vel malesuada eros hendrerit in. Mauris auctor, lacus quis lacinia aliquet, urna quam vestibulum neque, at faucibus tortor augue venenatis lacus. Ut viverra lorem a accumsan ornare. Duis nibh lorem, scelerisque non elementum elementum, lacinia egestas lacus. Curabitur fringilla felis sit amet erat posuere, vehicula egestas est tincidunt. Nunc ut sapien vitae augue venenatis auctor vel non ipsum. Nunc sollicitudin est erat, vitae lacinia nibh scelerisque non. Cras iaculis diam in lacus volutpat, eget tincidunt eros congue.
 
-Ut ultrices metus eget sapien vulputate pulvinar. Donec a convallis enim, quis venenatis orci. Aliquam in turpis a ex consectetur ornare. Vestibulum egestas accumsan elit, vitae rhoncus metus. Maecenas sodales tempus nibh ac malesuada. Nullam sagittis, mi eget ultrices venenatis, urna nibh maximus risus, id luctus orci mauris et tortor. Nulla nisl dolor, dictum ac risus vel, varius volutpat dui. Sed cursus ornare erat, vel efficitur ante ultrices vitae. Morbi vel velit id velit tempus sagittis. Morbi lorem nunc, efficitur in sapien non, facilisis maximus ligula. Fusce cursus risus id neque tristique laoreet. Ut cursus posuere felis, eleifend consectetur ex varius ac. Nulla maximus vestibulum efficitur. Maecenas interdum leo vitae maximus blandit. Aliquam faucibus posuere dui, at ultricies nunc vehicula id. Praesent cursus, sapien in eleifend aliquam, lectus nunc tempor est, a bibendum magna justo et mauris.
+    <h1 class="season">'Tis the season!</h1>
+    <p class="season">The holidays are fast apporaching. To celebrate this, <br>we have prepared limited time seasonal sweets! Be<br>sure to order them as soon as you can! They will<br>run out befrore you know it.</p>
+    <br>
+    <img class="index" style="margin-bottom: 40px;" src="images/christmassweets.jpg" alt="holiday cookies">
+    <hr class="sep">
+    <img class="index" style="margin-top: 40px;margin-left: 50px; margin-bottom: 50px; float" src="images/bakingutensils.jpg" alt="baking utensils">
 
-Curabitur tempor ut orci ac mollis. Fusce feugiat et lectus ac malesuada. Nunc viverra est tellus, sed rhoncus nunc bibendum a. Suspendisse et nibh a odio fringilla consequat. Quisque semper magna nec congue posuere. Sed sit amet molestie risus, at interdum ex. Proin mollis turpis ex, malesuada mattis est tincidunt at. Praesent nec augue porttitor, commodo sapien id, convallis tortor. Vivamus sollicitudin neque libero, nec dictum nisl ornare vel.
+
+  <h1 style="font-family: Arial, Helvetica, sans-serif; text-align: right; text-shadow: 1px 1px 1px #333; color:#F9F6EE; float: right; padding-top: 50px; padding-right: 350px;">Made Fresh</h1>
+  <p class="fresh" style="text-align: justify;">All of our products are made fresh with <br>nothing but organic ingredients. <br>Our policy is to always have our customers have a. <br>Everything is home-made
+    </p>
   <br>
-</p>
+
+
 </div>
-</div>
-<footer><p class="footer">Author: Joshua Ramirez</footer>
+<footer><p class="footer">Created by: Joshua Ramirez 2021</footer>
 </body>
 </html>	
