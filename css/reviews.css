@@ -12,6 +12,7 @@ ul.nav {
 li.nav {
   display: inline-block;
   padding: 0px;
+  z-index: 9999;
 }
 
 li a {
@@ -33,52 +34,19 @@ li a:hover:not(.active) {
 
 body{
   background: #F2DDC1;
-
 }
-.header {
-  text-align: center;
-  color: white;
-  font-size: 30px;
-}
-
-img{
-  object-fit: cover;
-
-
-}
-
-img.logo{
-  object-fit: cover;
-  height: 500px;
-  width: 1850px;
-}
-
-p{
-  text-align: center;
-
-}
-
-
-#wrapper{
-  width: 1850px;
-  background: #EED6C4;
-  text-align: left;
-  margin: auto;
-
-
-      }
-
 footer{
   background-color: #6B4F4F;
   padding: 4px 1px;
   width: 100%;
   position: absolute;
-  float: ;
-}
-p.footer{
+  }
+  p.footer{
   color: white;
   text-shadow: 1px 1px 1px #333;
   width: auto;
+  font-size: 0.9em;
+  text-align: left;
 
 }
 p{
@@ -87,3 +55,4 @@ p{
   line-height: 1.5em;
   font-family: georgia, serif;
 }
+
