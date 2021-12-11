@@ -49,6 +49,7 @@ img{
 
 img.footer{
 object-fit: contain;
+margin-left: 50px;
 }
 img.logo{
   object-fit: cover;
@@ -70,9 +71,6 @@ footer{
   padding: 4px 1px;
   width: 100%;
   position: absolute;
-
-
-
 }
 p.footer{
   color: white;
@@ -81,7 +79,12 @@ p.footer{
   font-size: 0.9em;
   text-align: left;
   margin-left: 250px;
+  word-spacing: 7px;
 
+}
+img.footer{
+  object-fit: contain;
+  margin-left: 50px;
 }
 p{
   font-size: 1.2em;

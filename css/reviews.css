@@ -48,7 +48,11 @@ footer{
   font-size: 0.9em;
   text-align: left;
   margin-left: 250px;
-
+  word-spacing: 7px;
+}
+img.footer{
+  object-fit: contain;
+  margin-left: 50px;
 }
 p{
   font-size: 1.1em;
