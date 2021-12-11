@@ -45,24 +45,20 @@ body{
 
 img{
   object-fit: cover;
-
-
 }
 
+img.footer{
+object-fit: contain;
+}
 img.logo{
   object-fit: cover;
   height: 500px;
   width: 1850px;
 }
 
-p{
-  text-align: center;
-
-}
-
 
 #wrapper{
-  width: 1850px;
+  width: 1750px;
   background: #EED6C4;
   text-align: left;
   margin: auto;
@@ -74,6 +70,7 @@ footer{
   padding: 4px 1px;
   width: 100%;
   position: absolute;
+
 
 
 }
@@ -91,7 +88,10 @@ p{
   text-shadow: 0 2px #E6CCA9;
   line-height: 2.3em;
   font-family: georgia, serif;
+  text-align: center;
+
 }
+
 
 /*entire section is for FAQ*/
 summary {
@@ -108,6 +108,7 @@ summary {
   cursor: pointer;
   position: relative;
 }
+
 details > summary::after {
   position: absolute;
   content: "+";
@@ -126,6 +127,7 @@ details[open] summary ~ * {
   0%    {opacity: 0; margin-top: -10px}
   100%  {opacity: 1; margin-top: 0px}
 }
+
 
 .row {
       display: flex;
@@ -194,7 +196,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #04AA6D;
+  background-color: #483434;
 }
 
 .container {
@@ -202,4 +204,17 @@ input[type=submit]:hover {
   background-color: #E4CDA7;
   padding: 20px;
   height: 680px;
+  width: 45%;
+  float: left;
+}
+.map-responsive{
+    overflow:auto;
+    padding-bottom:53.5%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    height:100%;
+    width:100%;
+    position:absolute;
 }

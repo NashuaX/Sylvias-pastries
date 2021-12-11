@@ -94,3 +94,10 @@ p{
       display: block;
     }
 }
+#wrapper{
+  width: 1350px;
+  background: #EED6C4;
+  text-align: left;
+  margin: auto;
+  overflow: auto;
+      }
